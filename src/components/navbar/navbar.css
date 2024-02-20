@@ -1,0 +1,35 @@
+.nav-menu{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: #fff;
+}
+
+.nav-logo{
+    font-family: outfit;
+    font-size: 42px;
+    font-weight: 500;
+    position:inherit;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 90px;
+}
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
