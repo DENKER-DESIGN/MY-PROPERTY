@@ -3,6 +3,6 @@ import './home.css'
 
 export default function homes() {
   return (
-    <h1>tttttttt</h1>
+    <h1>Ma Ghee</h1>
   )
 }
