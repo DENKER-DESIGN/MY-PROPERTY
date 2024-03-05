@@ -12,7 +12,7 @@ import qqimage from  '../../assets/qq.jpg'
 const Background = ({ playStatus, heroCount }) => {
     if (playStatus) {
         return (
-            // <div>~~~~
+            // <div>
             // <h1>hello bro how are you in this morning</h1>
             // <img src={ddimage} alt="no internet connection" />
             // </div>

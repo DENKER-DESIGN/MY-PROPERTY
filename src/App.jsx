@@ -2,21 +2,8 @@ import { useEffect, useState } from 'react';
 import Background from './components/Background/Background';
 import Navbar from './components/navbar/navbar';
 import Hero from './components/hero/hero'
-import Home from './components/home/home'
-import Explore from './components/explore/explore';
+import Home from './components/home/home.jsx';
 import './index.css'
-import { BrowserRouter,Routes,Route } from 'react-router-dom/cjs/react-router-dom.min.js';
-
-
-<BrowserRouter>
-  <Routes>
-    {/* <Route index element={<Home/>}></Route> */}
-    <Route index="/" element={<Home />}></Route>
-    <Route index="/explore" element={<Explore />}></Route>
-  </Routes>
-</BrowserRouter>
-
-
 
 const App = () => {
 
@@ -42,10 +29,7 @@ const App = () => {
     <div>
       <Background heroCount={heroCount} playStatus={playStatus} />
       <Navbar />
-      <div>
-        <Home/>
-        <Explore/>
-      </div>
+    
       <Hero
         setPlayStatus={setPlayStatus}
         heroData={heroData[heroCount]}

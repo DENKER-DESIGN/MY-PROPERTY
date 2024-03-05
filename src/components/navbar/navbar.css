@@ -1,13 +1,6 @@
 .nav-menu{
-    font-family: sans-serif;
-    color: white;
-
-}
-.nav-menu li{
-    list-style: none;
-}
-.nav-menu li a{
-    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
 }
 
 .nav{
@@ -23,7 +16,6 @@
     font-size: 42px;
     font-weight: 500;
     position:inherit;
-    display: block;
 }
 
 .nav-menu{
